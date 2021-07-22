@@ -3,7 +3,7 @@ from flask_mail import Mail, Message
 
 app = Flask(__name__)
 
-app.config['MAIL_SERVER']='smtp.gmail.com'
+app.config['MAIL_SERVER']='smtp.sendgrid.com'
 app.config['MAIL_PORT']=465
 app.config['MAIL_USERNAME'] = 'flaskapp389@gmail.com'
 app.config['MAIL_PASSWORD'] = 'Flaskapp@3891821'
